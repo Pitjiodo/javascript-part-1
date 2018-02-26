@@ -1,0 +1,1 @@
+alert('hallo from the other site');
