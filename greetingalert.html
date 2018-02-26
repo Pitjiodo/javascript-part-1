@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Time Greeting</title>
+    </head>
+    
+    <body>
+        <script>
+            var hour = new Date().getHours();
+            
+            if (hour >= 5 && hour <= 10) {
+                alert('GOOD MORNING');
+            }
+            else if (hour >= 10 && hour <= 14) {
+                alert('GOOD DAY');
+            }
+            else if (hour >= 14 && hour <= 17) {
+                alert('GOOD AFTERNOON');
+            }
+            else if (hour >= 17 && hour <= 21) {
+                alert('GOOD EVENING');
+            }
+            else if (hour >= 21 && hour <= 5) {
+                alert('GOOD NIGHT');
+            }
+            
+        </script>
+    </body>
+</html>
